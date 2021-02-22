@@ -1,5 +1,5 @@
 # whatsapp-analytics
- Analyze you whatsapp chats with python and plot fancy plots about you chat statistics. Access all the plots with [streamlit](https://www.streamlit.io/) in your browser.
+ Analyze your whatsapp chats with python and plot fancy plots about you chat statistics. Access all the plots with [streamlit](https://www.streamlit.io/) in your browser.
 
 ## Setup
 
