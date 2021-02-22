@@ -26,9 +26,9 @@ streamlit run whatsapp-analytics-streamlit-plotly.py
 There are not all plots available in streamlit. If you want to see all plots refer to ```whatsapp-analytics.ipynb```.
 
 Other examples can be seen here:
-![alt text](/documentation/Select_chat.png "Extract WhatsApp text")
-![alt text](/documentation/Select_user.png "Extract WhatsApp text")
-![alt text](/documentation/User_specific.png "Extract WhatsApp text")
+![Select_chat](/documentation/Select_chat.png "Extract WhatsApp text")
+![Select_user](/documentation/Select_user.png "Extract WhatsApp text")
+![User_specific](/documentation/User_specific.png "Extract WhatsApp text")
 
 ## To-Do
 - Include all plot from Jupyter Notebook in streamlit
