@@ -17,6 +17,8 @@ DD.MM.YY, hh:mm - SENDER: MESSAGE
 The file will first get cleaned and then stored in a Pandas dataframe.
 
 ## Usage
+At first, you need to change the folder for the chat(.txt) files in ````whatsapp-analytics-streamlit-plotly.py````. That's because streamlit does not provide a proper functionality to import files from file explorer.
+
 Use [streamlit](https://www.streamlit.io/) in your browser to access plots:
 ```
 streamlit run whatsapp-analytics-streamlit-plotly.py
