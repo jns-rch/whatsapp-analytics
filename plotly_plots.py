@@ -36,7 +36,7 @@ class Plotter():
         return fig
     
     def pieplot(self, data, values, names, color=None, title_text=None, legend_title_text=None): 
-        fig = px.pie(data_frame=data, values=values, names=names, color_discrete_sequence=self.color_discrete_sequence)
+        fig = px.pie(data_frame=data, values=values, names=names, color=color, color_discrete_sequence=self.color_discrete_sequence)
         fig = fig.update_layout(title_text=title_text, legend_title_text=legend_title_text)
         fig = self.standardize_plot(fig)
 
