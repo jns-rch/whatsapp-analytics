@@ -20,8 +20,18 @@ The file will first get cleaned and then stored in a Pandas dataframe.
 At first, you need to change the folder for the chat(.txt) files in ````whatsapp-analytics-streamlit-plotly.py````. That's because streamlit does not provide a proper functionality to import files from file explorer.
 
 Use [streamlit](https://www.streamlit.io/) in your browser to access plots:
-```
+``` bash
 streamlit run whatsapp-analytics-streamlit-plotly.py
+```
+
+Then you will need to type the folder containing your chat text files. 
+``` bash
+You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.0.108:8501
+
+Folder: #INSERT_YOUR_FOLDER_HERE
 ```
 
 ## Examples
